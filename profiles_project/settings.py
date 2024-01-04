@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zgiy=_!r-&$@79%8jck@z%t3n3#-dn+^&09j*#xyat8e5-i7a&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['production.eba-snfmhc3r.us-west-2.elasticbeanstalk.com','staging.eba-snfmhc3r.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['127.0.0.1:8000','production.eba-snfmhc3r.us-west-2.elasticbeanstalk.com','staging.eba-snfmhc3r.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'profiles_api'
+    'profiles_api',
 ]
 
 MIDDLEWARE = [
